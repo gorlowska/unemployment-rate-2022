@@ -1,0 +1,28 @@
+Temat projektu: Projekt, który chciałabym wykonać będzie wczytywał dane ze strony internetowej dotyczące stopy bezrobocia w 2022 roku w wybranych państwach. Program posortuje dane od najmniejszej do największej, narysuje wykres na ich podstawie oraz wskaże wartość największą i najmniejszą. Wykres będzie przedstawiał wartość stopy bezrobocia i państwo w którym ona występuje.
+
+Instrukcja obsługi pliku main.py:
+
+1. Uruchom program w środowisku Python zainstalowanym na komputerze.
+
+2. Upewnij się, że plik main.py znajduje się w folderze, w którym jesteś obecnie.
+
+3. Otwórz terminal lub konsolę i wpisz polecenie: python main.py
+
+4. Program rozpocznie działanie i pobierze plik z danymi o bezrobociu w krajach UE ze storny internetowej Urzędu Statystycznego Unii Europejskiej .
+
+5. Dane zostaną przefiltrowane i posortowane, a następnie zostaną wyświetlone w postaci wykresu słupkowego.
+
+6. Wykres zostanie wyświetlony w oknie programu oraz zapisany w folderze pod nazwą "wykres".
+
+7. Wykres na osi rzędnych będzie przedtawiał wielkość stopy bezrobicia w %, a na osi odciętych nazwy pańswt w któych ona występuje. Najmniejsza wartość zosatnie pokolorowana na kolor zielony, a najwieksza na kolor czerwony.
+
+8. Aby ponownie wyświetlić wykres, wystarczy ponownie uruchomić program.
+
+Przed uruchomieniem programu upewnij się, że zainstalowane są wymagane biblioteki: pandas i matplotlib. Można je zainstalować korzystając z menedżera pakietów pip.
+
+
+
+
+Program ten służy do pobierania i przetwarzania danych dotyczących stopy bezrobocia w krajach Unii Europejskiej oraz wizualizacji tych danych na wykresie słupkowym.
+W pierwszej części programu zaimportowane zostały potrzebne biblioteki, a następnie pobrane zostały dane ze strony Eurostatu. W kolejnym kroku dane te zostały przefiltrowane i oczyszczone z niepotrzebnych informacji, takich jak wartości skorygowane sezonowo, jednostka miary, wiek czy płeć. Następnie zamienione zostały kody krajów na ich pełne nazwy.
+W drugiej części programu dane te zostały posortowane według wartości bezrobocia i zapisane w pliku csv. W ostatniej części programu został utworzony i zapisze wykres słupkowy, który przedstawia stopę bezrobocia w poszczególnych krajach UE w grudniu 2022 roku.

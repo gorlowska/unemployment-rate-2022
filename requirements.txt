@@ -1,0 +1,8 @@
+pandas==1.2.5
+matplotlib==3.4.2
+Do uruchomiania progamu potrzebne są:
+1. Python 3.11,
+2. zainstalowana biblioteka Pandas,
+3. zainstalowana biblioteka Matplotlib,
+4. połączenie internetowe umożliwiające dostęp do danych z podanego adresu URL,
+5. dostęp do zapisu i odczytu plików z katalogu, w którym wykonywany jest kod.
